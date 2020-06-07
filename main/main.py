@@ -5,6 +5,10 @@ from engine.tokenizer import Tokenizer
 
 parser = argparse.ArgumentParser(description='Extrating answers from input file')
 parser.add_argument('filePath', type=str, help='Path of Input File')
+# to expand the functionality, we can add optional param to pick values as per user Input
+# parser.add_argument('--infoLineNumber', type=int, help='Path of Input File') ==> 1
+# parser.add_argument('--answerLineNumber', type=int, help='Path of Input File') ==> 7
+# parser.add_argument('--questionLineNumberRange', type=str, help='Path of Input File') ==> 2,6
 args = parser.parse_args()
 
 if __name__ == '__main__':
