@@ -3,7 +3,7 @@ from fuzzywuzzy import process
 from parser.tokenizer import *
 import argparse
 
-parser = argparse.ArgumentParser(description='Extrating answers from imput file')
+parser = argparse.ArgumentParser(description='Extrating answers from input file')
 parser.add_argument('filePath', type=str, help='Path of Input File')
 args = parser.parse_args()
 
