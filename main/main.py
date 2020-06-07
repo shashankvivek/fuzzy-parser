@@ -1,7 +1,7 @@
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
-from parser.tokenizer import *
 import argparse
+from engine.tokenizer import Tokenizer
 
 parser = argparse.ArgumentParser(description='Extrating answers from input file')
 parser.add_argument('filePath', type=str, help='Path of Input File')
